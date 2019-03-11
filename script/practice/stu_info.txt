@@ -1,0 +1,3 @@
+Kim,25,Beijing
+BoB,22,Shanghai
+Harry,36,Nanjing

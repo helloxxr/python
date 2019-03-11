@@ -1,0 +1,172 @@
+{
+  "id": "3e74c9af-5336-40fa-815f-5d82c9ca7be5",
+  "version": "1.1",
+  "name": "aaa",
+  "url": "https://www.baidu.com",
+  "tests": [{
+    "id": "ecb6dd15-0934-4a81-8b02-297e2b4fea9f",
+    "name": "baidusearch",
+    "commands": [{
+      "id": "693927cc-f988-46c9-b35c-a42a3bd8ba75",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9d89dc7-f5cd-45c9-bb3f-debfb6dc099d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "889x662",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fcb0a530-daa5-4cff-9224-1e1737fcba82",
+      "comment": "",
+      "command": "click",
+      "target": "id=kw",
+      "targets": [
+        ["id=kw", "id"],
+        ["name=wd", "name"],
+        ["css=#kw", "css"],
+        ["css=#kw", "css:finder"],
+        ["xpath=//input[@id='kw']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0eff68ee-4703-483a-8824-80e33266c7a7",
+      "comment": "",
+      "command": "type",
+      "target": "id=kw",
+      "targets": [
+        ["id=kw", "id"],
+        ["name=wd", "name"],
+        ["css=#kw", "css"],
+        ["css=#kw", "css:finder"],
+        ["xpath=//input[@id='kw']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "自学网"
+    }, {
+      "id": "e91fe7a5-9be7-4a98-8001-806a1c0a1460",
+      "comment": "",
+      "command": "click",
+      "target": "css=li.bdsug-overflow.bdsug-s",
+      "targets": [
+        ["css=li.bdsug-overflow.bdsug-s", "css"],
+        ["css=.bdsug-s", "css:finder"],
+        ["xpath=//form[@id='form']/div/ul/li", "xpath:idRelative"],
+        ["xpath=//li", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09c3296d-7418-4623-9eea-ad48cfc5d9d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=a.favurl > em",
+      "targets": [
+        ["css=a.favurl > em", "css"],
+        ["css=.favurl > em", "css:finder"],
+        ["xpath=//div[@id='1']/h3/a/em", "xpath:idRelative"],
+        ["xpath=//h3/a/em", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "097f1361-13c3-4324-89c1-376bb8b01068",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "win_ser_1",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d29fc764-eb71-49f8-8dbf-713bf08958ef",
+    "name": "practice",
+    "commands": [{
+      "id": "a14cb69e-365c-4442-90a5-dfe35e3e4f21",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6fbf6797-e936-4aa2-9c17-709dde6618bb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "887x668",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2af26760-f810-4e58-9412-1167a8c8142f",
+      "comment": "",
+      "command": "click",
+      "target": "id=kw",
+      "targets": [
+        ["id=kw", "id"],
+        ["name=wd", "name"],
+        ["css=#kw", "css"],
+        ["css=#kw", "css:finder"],
+        ["xpath=//input[@id='kw']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "534deb55-42ed-4094-940c-3c512d82c661",
+      "comment": "",
+      "command": "type",
+      "target": "id=kw",
+      "targets": [
+        ["id=kw", "id"],
+        ["name=wd", "name"],
+        ["css=#kw", "css"],
+        ["css=#kw", "css:finder"],
+        ["xpath=//input[@id='kw']", "xpath:attributes"],
+        ["xpath=//form[@id='form']/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "自学网"
+    }, {
+      "id": "00ff2700-30d0-4f7c-9c7f-b9e63f3fe48a",
+      "comment": "",
+      "command": "submit",
+      "target": "id=form",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80c35513-5f0e-4608-9170-3e07f08a1047",
+      "comment": "",
+      "command": "goBack",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e388e02-9ad8-4f6e-ab47-ce08f2919b95",
+      "comment": "",
+      "command": "pause",
+      "target": "5000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e59f8a7-f092-4803-9844-c31954e40734",
+      "comment": "",
+      "command": "close",
+      "target": "win_ser_local",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4f1658f1-0bfd-4293-8b6a-2fb09c1e3339",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ecb6dd15-0934-4a81-8b02-297e2b4fea9f"]
+  }],
+  "urls": ["https://www.baidu.com/"],
+  "plugins": []
+}

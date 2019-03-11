@@ -4,4 +4,3 @@ param_data={'user':'zxw','password'='666'}
 r=requests.get(base_url+'/get',params=param_data)
 print(r.url)
 print(r.status_code)
-11qq00000000000
